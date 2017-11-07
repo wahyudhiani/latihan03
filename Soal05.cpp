@@ -39,5 +39,13 @@ int main () {
 		cout <<""<<endl;
 		cout << "Anda Tergolong Overweight / Berat"<<endl;
 	}	
-
+	else if (T/2.5<=B<=T/2.3){
+	
+		system("cls");
+		cout << ""<<endl;
+		cout << "Tinggi Anda "<<T<<" Kg"<<endl;
+		cout << "Berat Anda  "<<B<<" Cm"<<endl;
+		cout <<""<<endl;
+		cout << "Anda Tergolong Normal"<<endl;
+	}
 }
