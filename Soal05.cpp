@@ -7,5 +7,13 @@ int main () {
 	cout << " Berapa Tinggi Badan Anda (cm) ? "; cin >> T ;
 	cout << " Berapa Berat Badan Anda (kg) ? "; cin >> B ;
 
+	if (B<T/2.5){
+		system ("cls");
+		cout <<""<<endl;
+		cout << "Tinggi Anda "<<T<<" Kg"<<endl;
+		cout << "Berat Anda  "<<B<<" Cm"<<endl;
+		cout <<""<<endl;
+		cout << "Anda Tergolong underweight / Kurus"<<endl;
+	}
 
 }
