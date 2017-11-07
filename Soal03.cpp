@@ -23,6 +23,17 @@ int main () {
 		cout << "Pajak yang Ditanggung Karyawan Sebesar              :Rp "<<PAJAK<<endl;
 		cout << "Sehingga Gaji Bersih yang diterima Karyawan Sebesar :Rp "<<GB<<endl;		
 	}
-
+	else {
+		system ("cls") ;
+		GTOT = GP*40 ;
+		PAJAK = GTOT*0.15;
+		GB = GTOT-PAJAK ;
+				
+		cout << "Lama Kerja Karyawan dalam Seminggu                  : "<<JK<<" Jam"<<endl;
+		cout << "Gaji Perjam yang Karyawan Terima dalam Seminggu     :Rp "<<GP<<endl;
+		cout << "Gaji Total Karyawan                                 :Rp "<<GTOT<<endl;
+		cout << "Pajak yang Ditanggung Karyawan Sebesar              :Rp "<<PAJAK<<endl;
+		cout << "Sehingga Gaji Bersih yang diterima Karyawan Sebesar :Rp "<<GB<<endl;	
+	}
 }
 
