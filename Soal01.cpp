@@ -12,5 +12,9 @@ int main () {
 		
 		cout << "Selisih Nilai X dan Y yaitu "<< Z ;
 	}
-
+	else if (Y>X){
+		Z = Y-X;
+		
+		cout << "Selisih Nilai Y dan X yaitu "<< Z ;
+	}
 }
