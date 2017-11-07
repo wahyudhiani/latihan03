@@ -20,5 +20,14 @@ int main () {
 		L = Pa*Le ;
 		cout << "Jadi Luas Persegi Panjangnya adalah  "<< L ;
 	}	
-	
+	else if (Pilih=='S'){
+		system ("cls");
+		cout << "Anda Menghitung Luas Segitiga"<<endl ;
+		cout <<""<<endl;
+		cout << "Berapa Alas Segitiganya   ? "; cin >> Al ;
+		cout << "Berapa Tinggi Segitiganya ? "; cin >> Ti ;
+		L = 0.5*Al*Ti ;
+		
+		cout << "Jadi Luas Segitiganya adalah  "<< L ;
+	}
 }
